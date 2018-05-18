@@ -7,8 +7,8 @@ def display_board(board)
 end
 
 # code your input_to_index and move method here!
-def input_to_index
-  puts "Enter a value from 1 to 9"
-  number.gets.to_i - 1;
+def input_to_index(user_input)
+  
+  user_input.gets.to_i - 1;
 end
   
