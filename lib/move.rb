@@ -10,4 +10,5 @@ end
 def input_to_index(number)
   puts "Enter a value from 1 to 9"
   number.gets.to_i - 1;
+end
   
